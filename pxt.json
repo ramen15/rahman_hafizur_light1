@@ -1,5 +1,5 @@
 {
-    "name": "rahman_hafizur_light1",
+    "name": "PBAT Code",
     "description": "",
     "dependencies": {
         "adafruit-circuit-playground-express": "*"
@@ -13,7 +13,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "0.14.9",
+        "target": "0.15.4",
         "targetId": "maker"
     },
     "supportedTargets": [
