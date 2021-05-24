@@ -1,6 +1,3 @@
-soil_reading = 0
-dry_value = 1500
-
 while True:
     print("Light Level: " + input.light_level())
     if input.light_level() > 10:
@@ -15,7 +12,10 @@ while True:
         light.set_pixel_color(2, light.rgb(255,0,0))
         light.set_pixel_color(3, light.rgb(255,0,0))
         light.set_pixel_color(4, light.rgb(255,0,0))
-    
+
+soil_reading = 0
+dry_value = 1500
+
 def on_forever():
     pass
     soil_reading = input.pinA1.value()
@@ -34,4 +34,3 @@ def on_forever():
         light.set_pixel_color(9, light.rgb(0,255,255))
         pause(2000)
     forever(on_forever)
-    

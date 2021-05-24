@@ -1,5 +1,3 @@
-let soil_reading = 0
-let dry_value = 1500
 while (true) {
     console.log("Light Level: " + input.lightLevel())
     if (input.lightLevel() > 10) {
@@ -17,3 +15,5 @@ while (true) {
     }
     
 }
+let soil_reading = 0
+let dry_value = 1500
